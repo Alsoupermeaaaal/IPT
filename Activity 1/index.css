@@ -6,7 +6,7 @@
   
     /*===== Colors =====*/
    
-    --first-color: purple;
+    --first-color:rgb(196, 36, 134);
     --second-color: black;
     /*===== Fonts =====*/
     --body-font: 'Cambria', sans-serif;
@@ -126,16 +126,13 @@
     font-weight: var(--font-semi);
     background:rgb(196, 36, 134)
   }
-  .navbar-logo {
-    width: 100px; /* Set the width of the logo */
-  }
   
   @media screen and (max-width: 767px) {
     .nav__menu {
       position: fixed;
       top: var(--header-height);
       right: -100%;
-      width: 80%;
+      width: 100%;
       height: 100%;
       padding: 2rem;
       background: rgb(196, 36, 134)
