@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css">
+
+
+        <title>Alyssa Manuel</title>
+       
+    </head> 
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <!-- <img src="images\loggg.png" class="navbar-logo " > -->
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link "  >Home </a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Characters</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contacts</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>We are the <span class="home__title-color">San Rio</span><br> Characters</h1>
+                    
+                    <a class="button stroke smoothscroll" href="#about" title="">More About the Characters</a>
+                </div>
+
+                <div class="home__social">
+                    
+                </div>
+
+                <div class="home__img">
+                    
+                    <image class="home__blob-img" x="50" y="60" href="images\sanr.png"/>
+                        
+                    
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About Sanrio</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="images\img.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <p class="about__text">The company name, Sanrio, is derived from the Spanish words San Rio, which literally mean “Saint River” in English. San meaning “Saint” just like in the place names San Francisco and San Diego, and Rio meaning “River”, as in the names of riverside cities such as Rio de Janeiro and Rio Grande. So, the name Sanrio literally means “Saint River” or sacred river.
+
+                        </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Characters</h2>
+
+                <div class="character__container bd-grid">
+                    <a href="" class="character__img">
+                        <img src="images\cinnamon.png" alt="">
+                    </a>
+                    <a href="" class="character__img">
+                        <img src="images\hk2.png" alt="">
+                    </a>
+                    <a href="" class="character__img">
+                        <img src="images\pom.png" alt="">
+                    </a>
+                    
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <style>
+                body {
+                  margin: 0;
+                  padding: 0;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height: 100vh;
+                }
+            
+                /* Your existing CSS styles */
+                #contact {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                  max-width: 1200px;
+                  margin: 0 auto;
+                  width: 90%;
+                }
+            
+                #contact .contact-items {
+                  width: 100%;
+                  display: flex;
+                  justify-content: space-around; /* Adjust as needed */
+                }
+            
+                #contact .contact-item {
+                  width: 250px; /* Adjust the width as needed */
+                  padding: 20px;
+                  text-align: center;
+                  border-radius: 10px;
+                  margin: 30px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                  box-shadow: 0px 0px 18px 0 #0000002c;
+                  transition: 0.3s ease box-shadow;
+                }
+            
+                #contact .contact-item:hover {
+                  box-shadow: 0px 0px 5px 0 #0000002c;
+                }
+            
+                #contact .icon {
+                  width: 70px;
+                  margin: 0 auto;
+                  margin-bottom: 10px;
+                }
+            
+                #contact .contact-info h1 {
+                  font-size: 2.5rem;
+                  font-weight: 500;
+                  margin-bottom: 5px;
+                }
+            
+                #contact .contact-info h2 {
+                  font-size: 1.3rem;
+                  line-height: 2rem;
+                  font-weight: 500;
+                }
+              </style>
+              <title>Contact Page</title>
+            </head>
+            <body>
+              <section id="contact">
+                <div class="contact container">
+                  <div>
+                    <h1 class="section-title">Contact <span>info</span></h1>
+                  </div>
+                  <div class="contact-items">
+                    <div class="contact-item">
+                      <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/3406/3406800.png" alt="Phone Icon"></div>
+                      <div class="contact-info">
+                        <h1>Phone</h1>
+                        <a href="tel:09123456789">09123456789</a>
+                      </div>
+                    </div>
+                    <div class="contact-item">
+                      <div class="icon"><img src="https://cdn.icon-icons.com/icons2/3169/PNG/512/inbox_envelope_message_mail_icon_193570.png" alt="Email Icon"></div>
+                      <div class="contact-info">
+                        <h1>Email</h1>
+                        <a href="mailto:alyssamanuel@sdca.edu.ph">sanrio@gmail.com</a>
+                      </div>
+                    </div>
+                    <div class="contact-item">
+                      <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/5558/5558769.png" alt="Address Icon"></div>
+                      <div class="contact-info">
+                        <h1>Address</h1>
+                        <a href="https://www.google.com/maps/place/Windsor+Homes+Subdivision/@14.3235812,120.9687608,17z/data=!3m1!4b1!4m6!3m5!1s0x3397d50c2d811bc5:0x166281db2238e65e!8m2!3d14.3235812!4d120.9713357!16s%2Fg%2F11h71hsvd0?entry=ttu">Dasmariñas City, Cavite</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </body>
+            </html>
+
+            
+  
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
